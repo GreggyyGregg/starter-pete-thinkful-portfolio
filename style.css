@@ -21,6 +21,20 @@ header {
   text-align: center;
 }
 
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sections{
+  display: flex;
+}
+
+.about_column{
+  text-align: left;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -37,6 +51,9 @@ article div {
   width: 100%;
 }
 
+article p{
+  font-size: 14px;
+}
 /* Paragraphs */
 p {
   line-height: 1.5;
